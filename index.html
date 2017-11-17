@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+ <meta charset="UTF-8">
+ <title>Crystal Collector</title>
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<!--  FONT LIST -->
+ <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet">
+ <link href="https://fonts.googleapis.com/css?family=Abril+Fatface" rel="stylesheet">
+ <!--  /FONT LIST -->
+
+<!-- Reset -->
+<link rel="stylesheet" href="assets/css/reset.css">
+<!-- CSS -->
+<link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+  <header>
+    <center>
+      <img src="assets/images/header_image.png" >
+      <h1 class="top_title">CRYSTAL COLLECTOR</h1>
+    </center>
+    </header>
+  <div class="container">
+    <div class="info_box">
+      <center>
+        <ul>
+          <li>
+            You will be given a random number at the start of the game
+          </li>
+          <li>There are four crystals below. By clicking on a crystal you will add a specific amount of points to your score
+          </li>
+          <li>
+            You win the game by matching your total score to the random number. If your score goes over the random number you lose. 
+          </li>
+          <li>
+            The value of each crystal is hidden from you until you click on it.
+          </li>
+          <li>
+            Each time the game starts, the value of each crystal will change.
+          </li>
+        </ul>
+          </center>
+    </div>
+    <div class="number_wrapper">
+      <div class="random_number">
+          <h2 class="scoreboard_title">
+          <center>Number to Match</center>
+        </h2>
+        <div id="random_number_child">
+        </div>
+
+      </div>
+      <div class="wins_loses">
+        <h2 class="scoreboard_title">
+          <center>Wins / Losses</center>
+        </h2>
+        <div id="page_wins">
+        </div>
+        <div id="page_losses">
+        </div>
+      </div>
+    </div>
+  </div>
+      <div class="crystal_container">
+        <h2 class="scoreboard_title">
+          <center>Click a Crystal</center>
+        </h2>        
+        <div id="crystal_1">
+          <center><a href="#"><img src="assets/images/crystal.png" onmouseover="this.src='assets/images/crystal_1b.png'" onmouseout="this.src='assets/images/crystal.png'" / ></a></center>
+        </div>
+        <div id="crystal_2">
+          <center><a href="#"><img src="assets/images/crystal.png" onmouseover="this.src='assets/images/crystal_2b.png'" onmouseout="this.src='assets/images/crystal.png'"></a></center>
+        </div>
+        <div id="crystal_3">
+          <center><a href="#"><img src="assets/images/crystal.png" onmouseover="this.src='assets/images/crystal_3b.png'" onmouseout="this.src='assets/images/crystal.png'"></a></center>
+        </div>
+        <div id="crystal_4">
+          <center><a href="#"><img src="assets/images/crystal.png" onmouseover="this.src='assets/images/crystal_4b.png'" onmouseout="this.src='assets/images/crystal.png'"></a></center>
+        </div>
+      </div>
+
+      <div id="total_score">
+        <h2 class="scoreboard_title">
+          <center>Your Total Score</center>
+        </h2>
+          <div id="finalTotal">
+          </div>
+      </div>
+
+<script src="assets/javascript/game.js"></script>
+</body>
+</html>

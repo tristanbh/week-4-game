@@ -1,0 +1,161 @@
+body {
+	font-family: 'Open Sans',Proxima, "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+	background: #F2EEEB;
+	margin: 0 0 0 0;
+}
+
+.top_title {
+	font-family: 'Abril Fatface','Open Sans',Proxima, "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+	font-size: 56px;
+	font-weight: 100;
+	margin-top: -20px;
+	color: #097376;
+}
+
+.scoreboard_title {
+	font-family: 'Open Sans',Proxima, "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+	font-size: 18px;
+	font-weight: 400;
+	color: #097376;
+	margin-top: 0px;
+	padding-bottom: 5px;
+	border-bottom: .5px solid #097376;
+
+}
+
+.info_box {
+	width: 40%;
+	margin: auto;
+	margin-top: -20px;
+	padding-bottom: 20px;
+
+}
+
+.info_box li{
+	font-family: 'Open Sans',Proxima, "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+	list-style-type: upper-roman;
+	line-height: 20px;
+	font-size: 12px;
+	text-align: left;
+}
+
+.number_wrapper {
+	width: 60%;
+/*	border: 1px solid;*/
+	margin: auto;
+
+}
+
+.random_number {
+	float: left;
+	width: 40%;
+	height: 80px;
+/*	border: 1px solid;*/
+
+
+}
+
+#random_number_child{
+	font-family: 'Abril Fatface', 'Open Sans',Proxima, "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+	font-size: 66px;
+	font-weight: 100;
+	width:50px;
+	margin: auto;
+	color: #097376;
+	position: relative;
+
+}
+
+.wins_loses{
+
+	width: 30%;
+	height: 80px;
+	margin: auto;
+	float: right;
+
+/*	border: 1px solid;*/
+
+}
+
+#page_wins {
+	font-family: 'Abril Fatface', 'Open Sans',Proxima, "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+	font-size: 66px;
+	font-weight: 100;
+	width:40px;
+	margin: auto;
+	color: #097376;
+	position: relative;
+	float: left;
+	margin-left: 30px;
+
+
+}
+
+
+#page_losses{
+	font-family: 'Abril Fatface', 'Open Sans',Proxima, "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+	font-size: 66px;
+	font-weight: 100;
+	width:40px;
+	margin-right: 20px;
+	color: #097376;
+	position: relative;
+	float: right;
+
+}
+
+.crystal_container {
+	font-family: 'Open Sans',Proxima, "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+	font-size: 18px;
+	font-weight: 300;
+/*	border-bottom: 1px solid;*/
+	width: 60%;
+	margin: auto;
+	clear: both;
+	padding-top: 40px;
+
+}
+
+#crystal_1 {
+	float: left;
+	margin: auto;
+	width:25%;
+
+}
+#crystal_2 {
+	float: left;
+	margin: auto;
+	width:25%;
+}
+#crystal_3 {
+	float: left;
+	margin: auto;	
+	width:25%;
+}
+#crystal_4 {
+	float: left;
+	margin: auto;	
+	width:25%;
+}
+
+#total_score {
+	font-family: 'Open Sans',Proxima, "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+	font-size: 18px;
+	font-weight: 300;
+	/*border-bottom: 1px solid;*/
+	width: 60%;
+	margin: auto;
+	clear: both;
+
+}
+
+#finalTotal {
+	font-family: 'Abril Fatface', 'Open Sans',Proxima, "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+	font-size: 86px;
+	font-weight: 100;
+	width:50px;
+	margin: auto;
+	color: #097376;
+	position: relative;
+
+}
