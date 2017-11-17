@@ -23,20 +23,6 @@ $('#page_wins').text(wins);
 $('#page_losses').text(losses);
 
 
-function reset(){
-  Random=Math.floor(Math.random()*101+19);
-  console.log(Random)
-  $('#random_number_child').text(Random);
-  crys1= Math.floor(Math.random()*11+1);
-  crys2= Math.floor(Math.random()*11+1);
-  crys3= Math.floor(Math.random()*11+1);
-  crys4= Math.floor(Math.random()*11+1);
-  userTotal= 0;
-  $('#finalTotal').text(userTotal);
-} 
-
-
-
 function pagewin(){
 alert("You won!");
   wins++; 
@@ -98,6 +84,19 @@ alert ("You lose!");
         pageloss();
       }
  }); 
+
+function reset(){
+  Random=Math.floor(Math.random()*101+19);
+  console.log(Random)
+  $('#random_number_child').text(Random);
+  crys1= Math.floor(Math.random()*11+1);
+  crys2= Math.floor(Math.random()*11+1);
+  crys3= Math.floor(Math.random()*11+1);
+  crys4= Math.floor(Math.random()*11+1);
+  userTotal= 0;
+  $('#finalTotal').text(userTotal);
+} 
+
 
 });   
 
